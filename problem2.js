@@ -11,3 +11,7 @@ const lengthCheck = (friends) =>{
     return newFriends;
 }
 console.log(lengthCheck(friends));
+
+// Using filter 
+const newFriends= friends.filter(friend => friend.length%2===0) 
+console.log(newFriends);
